@@ -1,6 +1,6 @@
-a,b=map(int,input().split())
+n,m=map(int,input().split())
 x=' '
-for num in range(a+b,b):
+for num in range(n+m,m):
 	if num>1:
 		for i in range(2,num):
 			if num%i==0:
