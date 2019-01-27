@@ -1,3 +1,3 @@
-n=int(input())
-x=[int(i) for i in input().split()]
-print(max(x))
+a=int(input())
+j=[int(i) for i in input().split()]
+print(max(j))
